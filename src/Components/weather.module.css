@@ -1,0 +1,23 @@
+.dist{
+    position: absolute;
+    top:20px;
+    left:85%;
+    padding:15px 30px;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    border-radius: 8px;
+    
+}
+.icon{
+    width:100px;
+    margin-bottom: -50px;
+}
+.temp{
+    font-size: 15px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+.sky{
+    font-size: 18px;
+    margin-bottom: -2px;
+}
