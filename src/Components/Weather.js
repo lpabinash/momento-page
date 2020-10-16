@@ -36,7 +36,7 @@ class Example extends Component {
   }
 
   getWeather = async (latitude, longitude) => {
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=ac9589d4e20d2570510d5868d99875f2&units=metric`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=ac9589d4e20d2570510d5868d99875f2&units=metric`);
     const data = await api_call.json();
     console.log(data)
     this.setState({data:data})
